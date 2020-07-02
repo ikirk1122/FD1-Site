@@ -1,0 +1,50 @@
+    
+      
+        headerl{
+            position: fixed;
+            width: 100%;
+            top:0;
+            left: 0;
+        }
+        header ul{
+            display: flex;
+            justify-content: center;
+            transition: 0.5s;
+            top: 54px;
+        }
+        header ul li a{
+            width: 100px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 20px;
+            background: chartreuse;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        header ul li a:hover{
+            background:darkcyan;
+        }
+    
+       
+        .btn{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: none;
+        }
+        .btn .close{
+            display: none;
+        }
+        #up{
+            width: 50px;
+            height: 50px;
+            background-color: burlywood;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            display: none;
+        }
+       

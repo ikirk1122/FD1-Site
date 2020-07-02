@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=UTF-8>
+    <title>Autotravelers_Put_Swiz</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="media/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Prata&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body style="margin: 0px; padding: 0px;">
+
+    <!--FIRST BLOCK-->
+
+
+    <header class="flexbox container" style="min-height: 100px; display: flex; justify-content: space-between; align-items: center;">
+        <div style="flex-basis: 200px;">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="22" viewBox="0 0 430 220" style="float:left; margin-right: 10px; margin-top: 5px;">
+                <defs>
+                    <clipPath id="a">
+                        <path d="M1833.06 439.027c-18.7 15.313-42.03 26.29-64.58 28.81-19.06 10.745-54.69 37.87-127.6 77.09-48.32 12.206-167.91 5.663-209.77-13.107-12.71-5.7-17.36-45.058-22.55-75.273 47.42 22.66 116.07.762 146.92-9.137 97.26-31.25 196.71-43.75 277.58-8.383"
+                            clip-rule="evenodd"></path>
+                    </clipPath>
+                    <linearGradient id="b" gradientTransform="matrix(-6.62983 126.505 443.668 23.2517 1400.38 409.405)" gradientUnits="userSpaceOnUse"
+                        x2="1" x1=".13">
+                        <stop offset="0" stop-color=" #1abc9c"></stop>
+                        <stop offset="1" stop-color="#1abc9c"></stop>
+                    </linearGradient>
+                </defs>
+                <path d="M6.087 188.73h26.1c-2.646-9.496-2.16-19.324.463-28.734 7.11-21.555 25.623-35.392 47.745-35.99 18.882.508 34.55 10.043 43.965 26.783 5.828 11.676 7.808 25.185 4.262 37.933h153.135l-.212-.747c-3.307-14.742-1.003-28.678 6.975-41.4 9.968-14.31 24.3-22.117 41.463-22.576 17.154.464 31.49 8.267 41.454 22.577 7.956 12.704 10.296 26.676 6.962 41.4l-.196.738h44.19c3.105-7.213 6.728-26.145 4.577-39.982-5.5-35.352-47.4-70.46-86.534-74.948-16.2-9.346-47.277-32.152-109.26-66.262-41.742-9.9-143.253-3.177-178.313 11.403-13.095 5.445-14.256 56.43-21.33 77.625-16.456 8.46-37.872 50.74-25.443 92.16"
+                    fill="#1abc9c" fill-rule="evenodd"></path>
+                <g clip-path="url(#a)" transform="matrix(.85005 0 0 -.87012 -1162.87 480.878)">
+                    <path d="M1833.06 439.027c-18.7 15.313-42.03 26.29-64.58 28.81-19.06 10.745-54.69 37.87-127.6 77.09-48.32 12.206-167.91 5.663-209.77-13.107-12.71-5.7-17.36-45.058-22.55-75.273 47.42 22.66 116.07.762 146.92-9.137 97.26-31.25 196.71-43.75 277.58-8.383"
+                        fill="url(#b)"></path>
+                </g>
+                <path d="M80.404 131.786c23.427 0 42.426 19.44 42.426 43.425 0 23.987-19 43.427-42.426 43.427-23.427 0-42.426-19.44-42.426-43.425 0-23.984 19-43.424 42.426-43.424zm0 14.346c15.683 0 28.395 13.018 28.395 29.08 0 16.04-12.714 29.06-28.397 29.06-15.682 0-28.395-13.02-28.395-29.06 0-16.066 12.712-29.08 28.394-29.08m249.572-14.346c23.432 0 42.422 19.44 42.422 43.425 0 23.987-18.99 43.427-42.417 43.427-23.42 0-42.42-19.44-42.42-43.425 0-23.984 19-43.424 42.427-43.424zm0 14.346c15.687 0 28.395 13.018 28.395 29.08 0 16.04-12.71 29.06-28.397 29.06-15.678 0-28.395-13.02-28.395-29.06 0-16.066 12.716-29.08 28.394-29.08"
+                    fill-rule="evenodd" fill="#000000"></path>
+                <path d="M289.52 52.338c-21.745-14.868-49.604-29.52-70.507-36.45-10.948-3.622-24.336-3.298-36.01-3.25-37.98.136-108.165 4.996-110.172 11.44-3.26 10.485-3.33 15.36-2.932 26.73.148 4.23 2.866 7.596 25.515 9.198 59.296 4.15 118.845 4.712 178.2 7.857 24.498 1.292 27.73-7.443 15.907-15.534m52.478 35.833C328.44 102.05 372.643 110.9 380.685 110.9c2.542 0 3.748-1.992 4.023-3.896 1.476-10.26-34.574-27.193-42.72-18.855"
+                    fill="#fff" fill-rule="evenodd"></path>
+                <path d="M322.542 202.81c-6.22-1.92-13.234-7.63-16.448-13.385-10.694-19.16 2.426-42.352 23.96-42.352 29.443 0 38.28 40.31 11.795 53.82-4.863 2.482-14.412 3.43-19.308 1.918zM72.56 202.506c-13.503-5.053-20.717-15.93-19.62-29.584.646-8.068 3.565-13.895 9.638-19.24 5.448-4.795 10.652-6.64 18.65-6.606 23.48.096 35.745 29.483 19.608 46.988-2.405 2.61-6.255 5.705-8.555 6.878-5.286 2.698-14.695 3.444-19.72 1.564z"
+                    fill="#fff"></path>
+
+            </svg>
+            <a href="index-1.html" title="На главную">
+                <div class="open" id="LOGO" style="">Avtotravelers</div>
+        </div>
+        </a>
+
+        <ul id="menu">
+            <!--борьба с bootstrap и его предустановленными стилями: скачен файл и вырезан синий цвет ссылок -->
+            <li class="menuElem"><a href="index-1.html#contact" style="text-decoration: none;" title="Связаться">Связаться</a></li>
+            <li class="menuElem"><a href="index-1.html#about" style="text-decoration: none;" title="О нас">О нас</a></li>
+            <li class="menuElem"><a href="index-1.html#blogs" style="text-decoration: none;" title="Блоги">Блоги</a></li>
+            <li class="menuElem"><a href="put.html" style="text-decoration: none;" title="Путеводитель">Путеводитель</a></li>
+            <li class="menuElem"><a href="news.html" style="text-decoration: none;" title="Новости">Новости</a></li>
+            <li class="menuElem"><a href="map.html" style="text-decoration: none;" title="Карта сайта">Карта сайта</a></li>
+        </ul>
+
+        <div class="btn">
+            <button class="open" style="width: 60px;
+            height: 30px;
+            background-image: url(media/toggle.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            "></button>
+            <button class="close" style="width: 60px;
+            height: 30px;
+            background-image: url(media/toggle.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 0px -30px;
+            "></button>
+        </div>
+        <!--выпадающий список-->
+        <ul id="menuM" style="position: absolute; right: 0;">
+            <li><a class="menuMLi" href="index-1.html#contact">Связаться</a></li>
+            <li><a class="menuMLi" href="index-1.html#about">О нас</a></li>
+            <li><a class="menuMLi" href="index-1.html#blogs">Блоги</a></li>
+            <li><a class="menuMLi" href="put.html">Путеводитель</a></li>
+            <li><a class="menuMLi" href="news.html">Новости</a></li>
+            <li><a class="menuMLi" href="map.html">Карта сайта</a></li>
+        </ul>
+        <!--выпадающий список-->
+    </header>
+
+
+
+    <div class=clearfix></div>
+
+
+    <!--SECOND BLOCK-->
+
+
+
+
+    <!--BRIDGE BLOCK-->
+    <div class="bridge">
+        <div class="container">
+            <div class="bridgeS" style='color: white;  width: fit-content;'>ПУТЕВОДИТЕЛЬ
+
+
+            </div>
+
+            <ul id="breadcrumbs" style="    margin: 0;
+    text-decoration: none;
+    list-style: none;">
+                <li><a href="index-1.html" class="bread">Главная 	
+        &#8594;</a></li>
+
+                <li><a href="put.html" class="bread">путеводитель	
+            &#8594;</a></li>
+                <li><a href="swiz.html" class="bread">Швейцария
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+    <!--фиксированный блок-->
+    <div style="display: flex; justify-content: space-between; width: 36px; height: 150px; flex-direction: column; position: fixed; left: 0; top: 40%; z-index: 2;">
+        <a href="https://twitter.com/?lang=ru" target="A" title="Мы в Twitter">
+            <div id="flyTwitter"></div>
+        </a>
+        <a href="https://mail.google.com/mail" target="B" title="Мы в Mail">
+            <div id="flyMail"></div>
+        </a>
+        <a href="https://www.instagram.com" target="C" title="Мы в Instagram">
+            <div id="flyInsta"></div>
+        </a>
+        <a href="https://dribbble.com" target="D" title="Мы в Dribble">
+            <div id="flyDribble"></div>
+        </a>
+
+    </div>
+    <!--фиксированный блок-->
+    <div class=clearfix></div>
+
+
+
+    <!--4TH BLOCK-->
+
+    <div class="paralax" style="background-image: url('media/put/swiz/s0.jpg'); 
+background-attachment: fixed;   
+background-positsion: center top;
+color: white; background-size: auto; background-color: #f0f0f0; 
+background-repeat: no-repeat; overflow: hidden;">
+        <div class="container" style="text-align: center; background-color:  rgba(100, 100, 100, 0.5) ">
+
+            <div style="height: 80px; width: 0px; border: 0px solid #333333; text-align: center; margin: 0 auto;"></div>
+
+
+
+
+
+
+            <div class="putText">
+                <h1>Достопримечательности Швейцарии</h1>
+
+                <p>Достопримечательности Швейцарии демонстрируют природное и рукотворное богатство страны. Иногда сложно понять,
+                    как они все умещаются на такой небольшой площади. Зная, что посмотреть в Швейцарии, вы точно не упустите
+                    из виду все самое интересное и значимое.
+                    <br> Поездка в Швейцарию однозначно запомнится вам на всю жизнь, потому что она богата уникальными архитектурными
+                    памятниками, красивыми озерами, горными хребтами. Внимания заслуживает каждый средневековый городок этой
+                    страны. Ниже приведен перечень главных достопримечательностей Швейцарии.</p>
+                <h3>Собор Гроссмюнстер</h3>
+                <div class="putImg" style="background-image: url('media/put/swiz/s1.jpg'); float:left;" title="Собор Гроссмюнстер"></div>
+
+
+                <p>Если вы относитесь к числу ценителей религиозных памяток, тогда вам точно понравится величественная обитель,
+                    расположенная в самом центре Цюриха. Считается, что возведен собор был в 9 веке, а место выбрано неспроста.
+                    Рядом в свое время были обнаружены могилы святых Регулы и Феликса.
+                    <br>В описании этой достопримечательности сказано, что строительство тогда затянулось, в эксплуатацию
+                    здание ввели только в 12 веке. На сегодня эта достопримечательность Швейцарии относится к числу самых
+                    посещаемых, в этом месте туристы получают возможность проникнуться многовековой историей храма.
+
+                </p>
+                <div class=clearfix></div>
+                <h3>Фирвальдштетское озеро</h3>
+                <div class="putImg" style="background-image: url('media/put/swiz/s2.jpg'); float: right;" title="Фирвальдштетское озеро"></div>
+
+                <p>Что посмотреть в Швейцарии? Внимания заслуживает водоем, воды которого омывают сразу 4 кантона. Туристы часто
+                    называют его названием самого популярного и крупного на берегу населенного пункта. Путешествие сюда запомнится
+                    живописными извилистыми берегами.
+                    <br> Если точнее описывать Фирвальдштетское озеро, стоит отметить, что состоит оно из 4-х бассейнов,
+                    которые соединены узкими проливами. Еще имеется котловина, образованная древними массами льда атмосферного
+                    происхождения, когда-то они спускались с гор. В летнее время года абсолютно прозрачная вода прогревается
+                    до 20 градусов Цельсия.</p>
+                <div class=clearfix></div>
+                <h3>Санкт-Мориц</h3>
+                <div class="putImg" style="background-image: url('media/put/swiz/s3.jpg'); float:left;" title="Санкт-Мориц"></div>
+                <p>Что посетить в Швейцарии? Познакомиться стоит с одним из самых старых курортов мира. Находится он в долине
+                    Энгадин, а похвастаться может тем, что в течение года здесь 322 солнечных дня.
+                    <br> Это место относится к числу лучших достопримечательностей, потому что здесь находится самый известный
+                    горнолыжный курорт страны. Каждый год сюда съезжаются представители королевских династий, политиков,
+                    миллиардеров, не исключением являются и звезды шоу-бизнеса.
+                    <br> Из отзывов о курорте можно понять, что кухня и рестораны там подчинены капризам горнолыжной элиты.
+                    Большинство общественных заведений для принятия пищи находится непосредственно на склонах.
+                    <p></p>
+                    <div class=clearfix></div>
+                    <h3>Маттерхорн</h3>
+                    <div class="putImg" style="background-image: url('media/put/swiz/s4.jpg'); float: right;" title="Маттерхорн"> </div>
+                    <p>Продолжая описывать интересные места, заострить внимание хотелось бы на одной из самых узнаваемых гор
+                        страны. Маттерхорн является символом всех Альп, а находится эта возвышенность на границе двух государств.
+                        Южная часть склона «принадлежит» Италии, остальные три – Швейцарии. Долгое время эта возвышенность
+                        оставалась непокоренной, потому что на отвесных склонах горы практически не задерживался снег.
+                        <br> Но! В 1865 году первое восхождение все же было осуществлено, причем одновременно итальянскими
+                        и английскими альпинистами. Есть еще неприятный момент, связанный с этой достопримечательностью Швейцарии:
+                        гора лидирует по печальной статистике, на ее склонах погибло более 500 человек.
+                        <p></p>
+
+            </div>
+            <div style="height: 80px; width: 0px; border: 0px solid #333333; text-align: center; margin: 0 auto;"></div>
+        </div>
+    </div>
+
+
+
+
+    <div class=clearfix></div>
+
+    <!--10TH BLOCK-->
+
+
+    <footer style="overflow: hidden; background-color: white; ">
+        <div class="container" style=" text-align: center">
+
+            <div class=lat style="font-size: 15px; font-weight:400; text-align: center; margin-top: 25px; color: #656565;">&#169; 2020 IT-Academy. All rights reserved.</div>
+            <div style="display: flex; width: 300px; flex-direction: row; margin: 25px auto; justify-content: space-between">
+                <a href="https://twitter.com/?lang=ru" target="A" title="Мы в Twitter" style="flex-basis: 30px; height: 30px;">
+                    <div style="flex-basis: 30px; height: 30px;  background-image: url('media/twitter_361.png'); background-repeat: no-repeat; background-position: center;"></div>
+                </a>
+                <a href="https://mail.google.com/mail" target="B" title="Мы в Mail" style="flex-basis: 30px; height: 30px;">
+                    <div style="flex-basis: 30px; height: 30px;  background-image: url('media/mail_358.png'); background-repeat: no-repeat; background-position: center;"></div>
+                </a>
+                <a href="https://www.instagram.com" target="C" title="Мы в Instagram" style="flex-basis: 30px; height: 30px;">
+                    <div style="flex-basis: 30px; height: 30px;  background-image: url('media/instagram_359.png'); background-repeat: no-repeat; background-position: center;"></div>
+                </a>
+                <a href="https://dribbble.com" target="D" title="Мы в Dribble" style="flex-basis: 30px; height: 30px;">
+                    <div style="flex-basis: 30px; height: 30px;  background-image: url('media/dribbble_360.png'); background-repeat: no-repeat; background-position: center;"></div>
+                </a>
+
+            </div>
+        </div>
+        <a id="upBotton" href="#" onclick="return up()">
+            <div title="Вверх"></div>
+        </a>
+
+        <div class=clearfix></div>
+    </footer>
+
+
+
+    <!--end-->
+
+
+
+
+
+
+
+
+
+    <script src="js/myJs.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="js/myJs2.js"></script>
+
+
+
+
+</body>
+
+</html>

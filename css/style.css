@@ -1,0 +1,316 @@
+.container
+{margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    clear: both;
+width: 1160px;
+}
+
+a {color: white}
+
+#welcome{
+    overflow: hidden; background-image: url('../media/welcome.jpg'); background-attachment: fixed; 
+    color: white; background-size: cover; background-color: #f0f0f0;
+}
+li a {color: rgb(142,142,142)}
+
+ul li {margin: 0;}
+header li .menuMLi{color: white; text-decoration: none;}
+header li .menuMLi:hover {color: black; text-decoration: none;}
+
+.put {font-size: 40px;}
+.mapLi{color: white}
+
+#flyTwitter {flex-basis: 36px; height: 36px; background-color: rgba(0, 0, 0, 0.3); background-image: url('../media/twitter_64.png'); background-repeat: no-repeat; background-position: center;}
+#flyMail {flex-basis: 36px; height: 36px; background-color: rgba(0, 0, 0, 0.3); background-image: url('../media/mail_74.png'); background-repeat: no-repeat; background-position: center;}
+#flyInsta {flex-basis: 36px; height: 36px; background-color: rgba(0, 0, 0, 0.3); background-image: url('../media/instagram_66.png'); background-repeat: no-repeat; background-position: center;}
+#flyDribble {flex-basis: 36px; height: 36px; background-color: rgba(0, 0, 0, 0.3); background-image: url('../media/dribbble_72.png'); background-repeat: no-repeat; background-position: center;}
+
+#flyTwitter:hover {background-color: #1abc9c}
+#flyMail:hover {background-color: #1abc9c}
+#flyInsta:hover {background-color: #1abc9c}
+#flyDribble:hover {background-color: #1abc9c}
+
+.putImg {height: 260px; width: 400px; background-size: cover; 
+    background-repeat: no-repeat;  margin:  5px; -webkit-clip-path: ellipse(180px 130px at 50% 50%)}
+
+
+
+
+.newsHover {background-color: rgba(0,0,0,0.1); padding: 30px 10px 10px;}
+
+#LOGO {font-weight: 700; color: #1abc9c; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.76); font-size: 24px;}
+#subm {color:  white; background-color: #3f8dbf; width: 180px; height: 30px; margin: 30px auto ;
+     text-align: center; border-radius: 4px; box-sizing: border-box; padding: 4px;}
+
+.foot {font-size: 8px; padding: 0; height: 40%; width: 100%; color: #d9d9d9; padding: 10px; }
+
+.newsHover a:hover{color: rgb(255, 240, 157); transition: 1s; transition-timing-function: ease-in-out;}
+.newsHover div:hover{color: rgb(255, 240, 157); transition: 1s; transition-timing-function: ease-in-out;}
+.newsMain:hover .newsHover{background-color: rgba(0,0,0,0.5);}
+
+.bread {font-size: 12px; font-style: italic; color: white}
+
+#menu{padding-left: 20px;}
+.map{color: white; font-size: 16px; background-color: rgba(0, 0, 0, 0.3);
+    position: absolute ;
+    display: flex; 
+    top: 60%;
+    left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%); 
+z-index: 4;}
+
+#upBotton {background-image: url('../media/arrow.png');background-color: rgba(100, 100, 100, 0.3); width: 36px; height: 36px; background-position: center; background-size: contain; position: fixed; left: 0; bottom: 0}
+#upBotton:hover {background-color: #1abc9c}
+.bloggs { margin: 0px auto 50px; padding: 50px 10px; min-height:600px; text-align: center;  background-color: rgba(0, 0, 0, 0.3); border-radius: 15px;}
+.br1R {float: right;  margin: 0px;}
+.br2L {float: left;  margin: 0 0px 0 30px;}
+.br2R {float: right;  margin: 0 30px 0 0px;}
+
+p.main2  {color: white; font-size:22px; font-weight:700; font-family: cursive}
+.main1 {font-size: 60px; font-weight:700; }
+
+.bridgeS {font-family: 'Lato', sans-serif; font-size: 30px; font-weight: 900; font-size: 25px; color: #333333; }
+
+.putText {overflow: hidden; text-align: left; font-family: 'Vollkorn', sans-serif;}
+.putText p{text-indent: 3em;}
+.putText h1 {text-align: center;}
+.putText h3 {margin: 0 5px;}
+.putText h3:nth-of-type(even) {text-align: right;}
+
+.newsMain {  flex-basis:350px; height:377px; flex-shrink: 1; margin: 0 5px;}
+
+
+.bridge
+{
+    height: 100px; background-color: #1abc9c; padding-top: 30px;
+}
+.flexbox44 {min-width: 100px; display: flex; justify-content: space-between; align-items: center;}
+.flexbox4 {margin-top: 30px;  min-width: 100px; display: flex; justify-content: space-between; align-items: center;}
+.flexbox{display: flex;}
+
+.menuElem
+{display: inline-block; 
+    color: rgb(142,142,142);
+margin: 0px 5px;
+font-family: 'Lato', sans-serif; font-size:20px; font-weight: 400;}
+
+.menuElem:hover { color: #1abc9c;  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.76); cursor: pointer;}
+.menuElem a:hover { color: #1abc9c;  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.76); cursor: pointer;}
+
+
+body {
+margin: 0px; padding: 0px;
+}
+
+.btn {display: none;}
+#menuM {display: none;}
+
+
+#breadcrumbs {display: flex; flex-direction: row;}
+
+.clearfix:after { content: "."; visibility: hidden; display: block; height: 0; clear: both;}
+
+.rob {font-family: 'Roboto', sans-serif; font-size: 16px;}
+.lat {font-family: 'Lato', sans-serif; font-size: 18px;  font-weight: 400;}
+.prata {font-family: 'Prata', serif; font-weight: 400;}
+.open {font-family: 'Open Sans Condensed', sans-serif; padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none; }
+.close {font-family: 'Open Sans Condensed', sans-serif;}
+* {box-sizing: border-box;}
+
+@media all and (max-width:1250px)
+
+{
+.container
+{margin: 0 auto;
+padding-left: 30px; padding-right: 30px; 
+display: block; clear: both;
+width: 1000px ; align: center;
+}
+.br1L {}
+.br1R {float: right; margin: 0 150px 30px 0; clear: both}
+.br2L {float: right; margin: 0 150px 0 0}
+.br2R {float: left; margin: 0 0 0 150px}
+
+
+.prata {font-size: 14px}
+}
+
+@media all and (max-width:1020px)
+
+{
+.container
+{margin: 0 auto;
+padding-left: 30px; padding-right: 30px; 
+display: block; clear: both;
+width: 900px;
+}
+
+.prata {font-size: 14px}
+.lat {font-size: 14px}
+.rob {font-size: 14px}
+
+.menuElem {font-size: 16px;}
+}
+
+@media all and (max-width:920px)
+
+{
+    .flexbox44 {display: block;}
+    .flexbox4 {display: block;}
+.container
+{margin: 0 auto;
+padding-left: 20px; padding-right: 20px; 
+display: block; clear: both;
+width: 760px;
+}
+
+.prata {font-size: 16px}
+
+
+.br1L {}
+.br1R {float: right; margin: 0 50px 30px 0; clear: both}
+.br2L {float: right; margin: 0 50px 0 0}
+.br2R {float: left; margin: 0 0 0 50px}
+
+#LOGO {font-size: 20px}
+.menuElem {font-size: 14px;}
+
+.newsHover {margin: 50px 0;}
+
+.right {display: inline-block; 
+    float: right;
+    margin: 0px 5px;
+    font-family: 'Lato', sans-serif; font-size:15px; font-weight: 400;}
+}
+
+
+@media all and (max-width:777px)
+
+{
+.container
+{margin: 0 auto;
+padding-left: 20px; padding-right: 20px; 
+display: block; clear: both;
+width: 600px;}
+
+p.main2  {font-size: 18px; font-weight:400;}
+.main1 {font-size: 40px; }
+
+.map ul{font-size: 11px;}
+.close {display: none;}
+#menu {display: none;}
+.btn {display: inline-block;}
+#menuM {display: block; position: absolute; top: -350px; 
+    transition: 1s; 
+    list-style-type: none; 
+    background-color: #1abc9c; 
+    padding-left: 0%;
+    text-align: center;
+margin: 0;
+color: white; z-index: 5;}
+.map{top:50%}
+
+
+ul li {margin: 5px;}
+.right {display: inline-block; 
+    float: right;
+    margin: 0px 5px;
+    font-family: 'Lato', sans-serif; font-size:13px; font-weight: 400;}
+
+}
+
+@media all and (max-width:618px)
+
+{
+.container
+{margin: 0 auto;
+padding-left: 10px; padding-right: 10px; 
+display: block; clear: both;
+width: 450px;}
+
+.putText p{font-size:14px}
+.putText h1, h3{font-size:24px;}
+
+.map ul{font-size: 9px;}
+.map{top:45%}
+.rob {font-family: 'Roboto', sans-serif; font-size: 12px;}
+
+.main2  {font-size: 14px;}
+.main1 {font-size: 36px; }
+
+
+.putText h3{text-align-last: center;}
+
+}
+@media all and (max-width:491px)
+
+{
+.container
+{margin: 0 auto; 
+padding-left: 3px; padding-right: 3px; 
+display: block; clear: both;
+width: 320px;}
+
+.lat {font-size: 13px}
+.main1 {font-size: 28px; }
+p.main2 {font-size: 10px; }
+div .foot {font-size: 8px; padding: 0}
+
+#flyTwitter {display: none}
+#flyMail {display: none}
+#flyInsta {display: none}
+#flyDribble {display: none}
+
+
+.putImg {height: 200px; width: 300px; -webkit-clip-path: ellipse(150px 100px at 50% 50%)}
+
+.bridgeS {font-size: 11px}
+.bridge
+{
+ padding-top: 40px;
+}
+
+.map ul{font-size: 9px;}
+
+}
+
+/*-----------------ВОЗВРАТ К ВЕРХУ----------------------*/
+#back-top {
+    position: fixed;
+    bottom: 0px;
+    padding: 0px;
+    left: 50%;  
+    margin-left: 500px;
+    z-index:99991;
+    }
+#back-top a{
+    width: 77px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.25);
+    display:block;
+    text-decoration:none;
+    -webkit-transition: all linear 0.2s; 
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    text-align: center;
+     
+    }
+ 
+#back-top a:hover{
+    height: 70px;
+    background: #663399;
+    -webkit-transition: all linear 0.2s; 
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    color: #fff;
+    }
